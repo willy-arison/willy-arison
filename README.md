@@ -1,6 +1,6 @@
 * **Hi, I’m @willy-arison**
 * *I'm a Mathematician.*
-* *I’m interested in Applied Mathematics such as Algorithm and Data Structure, Machine learning, Deep Learning and Statistics.*
+* *I’m interested in Applied Mathematics such as Financial mathethematics, Algorithm and Data Structure, Machine learning, Deep Learning and Statistics.*
 * *I’m currently learning at African Institute For Mathematical Sciences(AIMS) Rwanda.*
 
 <!---
