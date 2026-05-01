@@ -40,19 +40,19 @@ Proposed the **Geletu-Hoffmann Function (GHF)**: a parametric sigmoidal activati
 ### Activation Function Research (Thesis)
 **Technologies:** Python, PyTorch, PyTorch Lightning, Jupyter Notebook
 
-I implemented the experimental pipeline for the **Geletu-Hoffmann Function GHF(x) = τ(x; τ, m₁, m₂)** — a parametric sigmoidal activation with tunable output range [m₁, m₂]. Unlike ReLU (non-smooth at 0) or tanh (fixed [-1, 1]), GHF's adjustable asymptotes enable adaptive gradient scaling per layer. I tested across 6 datasets, 4 architectures (MLP, CNN, LSTM, ResNet), and 5 competing activations — gaining hands-on experience designing novel contributions and systematic benchmarking.
+I implemented the experimental pipeline for the **Geletu-Hoffmann Function GHF(x) = τ(x; τ, m₁, m₂)** — a parametric sigmoidal activation with tunable output range [m₁, m₂]. Unlike ReLU (non-smooth at 0) or tanh (fixed [-1, 1]), GHF's adjustable asymptotes enable adaptive gradient scaling per layer. I tested across 6 datasets, 4 architectures (MLP, CNN, LSTM, ResNet), and 5 competing activations; gaining hands-on experience designing novel contributions and systematic benchmarking.
 
 ### Handwritten Digit Classification Using Topological Features
 **Technologies:** Python, scikit-learn, Giotto-TDA, Matplotlib
 
-I classified MNIST digits using **persistent homology** instead of raw pixels. I transformed images into persistence diagrams encoding **(birth, death)** of H₀, H₁ homology classes across filtration scales, then trained a Random Forest on the topological feature space. I learned how topological features complement pixel-based methods — bridging pure math and applied ML.
+I classified MNIST digits using **persistent homology** instead of raw pixels. I transformed images into persistence diagrams encoding **(birth, death)** of H₀, H₁ homology classes across filtration scales, then trained a Random Forest on the topological feature space. I learned how topological features complement pixel-based methods; bridging pure math and applied ML.
 
 ### Incremental Algorithm and Gauss Reduction for Simplicial Complexes
 **Technologies:** Python, Jupyter Notebook, Topological Data Analysis
 
 I implemented **Betti number βₖ = rank(Hₖ)** computation using the boundary operator **∂ₖ: Cₖ → Cₖ₋₁** with **∂∘∂ = 0** for persistent homology. I gained practical experience in computational algebraic topology, directly supporting my TDA research interests.
 
-### Signal Classification — Respiratory Sound Dataset
+### Signal Classification - Respiratory Sound Dataset
 **Technologies:** Python, Librosa, PyTorch, 1D CNN, MFCC
 
 I developed a 1D CNN for asthma-relevant wheezing detection from respiratory audio. I extracted **MFCC features via STFT → Mel-scale filterbank → DCT**, then applied 1D convolutions for sequential feature extraction. Achieved **~95% validation accuracy**. I learned how spectral signal processing and convolutional feature extraction combine for medical ML research.
@@ -60,7 +60,7 @@ I developed a 1D CNN for asthma-relevant wheezing detection from respiratory aud
 ### Time Series Forecasting with XGBoost
 **Technologies:** Python, XGBoost, Pandas, Jupyter Notebook
 
-I built gradient-boosted regression trees minimizing **L = Σᵢ l(yᵢ, ŷᵢ) + Σₖ Ω(fₖ)**, with lag features, seasonal encoding, and multi-ID cross-series learning. This taught me additive ensemble methods and multi-step forecasting — transferable to quantitative finance and climate research.
+I built gradient-boosted regression trees minimizing **L = Σᵢ l(yᵢ, ŷᵢ) + Σₖ Ω(fₖ)**, with lag features, seasonal encoding, and multi-ID cross-series learning. This taught me additive ensemble methods and multi-step forecasting; transferable to quantitative finance and climate research.
 
 ### Image Classification - Animals-90 (Kaggle)
 **Technologies:** Python, PyTorch, ResNet-50
