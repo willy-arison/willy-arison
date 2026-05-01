@@ -105,32 +105,12 @@ I implemented RSA from scratch: integer factorization **n = pq**, **e·d ≡ 1 (
 ### Merge Sort — Even-Odd Violation Counting
 **Technologies:** Python, NumPy, Jupyter Notebook
 
-I solved **(even, odd) inversion counting** — where an even number precedes a smaller odd — using divide-and-conquer, reducing complexity from **O(n²)** to **O(n log n)**. I learned how to adapt classical algorithms for novel combinatorial problems.
+I solved **(even, odd) inversion counting** via divide-and-conquer, reducing **O(n²) → O(n log n)**. I learned to adapt classical algorithms for novel combinatorial problems.
 
 ### Mars Sol Problem — Martian Calendar
 **Technologies:** Python
 
-I modeled Martian time using **modular arithmetic with non-standard periodicity**: 24-month years (669-670 sols), irregular month lengths, and a custom leap year rule (odd + divisible by 10). This taught me computational modeling of non-standard periodic systems.
-
-### Streamlit OpenAI Chatbot
-**Technologies:** Python, Streamlit, LangChain, OpenAI
-
-I built a chatbot interface with conversation memory and repetition trimming using Streamlit and LangChain.
-
-### FSN Analysis — Inventory Classification
-**Technologies:** Python, Jupyter Notebook, Pandas
-
-I built an inventory classification tool computing stock coverage ratios to categorize products into Fast, Slow, and Non-moving categories.
-
-### Password Strength Checker
-**Technologies:** Python, Jupyter Notebook
-
-A group project that checks password strength based on complexity rules.
-
-### GitHub Profile Repository
-**URL:** [github.com/willy-arison](https://github.com/willy-arison)
-
-Special repository with profile README describing interests in Applied Mathematics.
+I modeled Martian time using modular arithmetic with non-standard periodicity: 24-month years, irregular month lengths, custom leap year rules.
 
 ---
 
@@ -173,22 +153,4 @@ Special repository with profile README describing interests in Applied Mathemati
 - **A-PIC 25** (Probability, Information Theory, and Combinatorics) — University of Rwanda, November 2025
 - **A-PIC 24** (African Summer School for Probability, Information Theory, and Combinatorics) — AIMS Rwanda, August 2024 (Certificate)
 
----
 
-## GitHub Repositories
-
-| # | Repository | Language | Description |
-|---|---|---|---|
-| 1 | made-in-rwanda-recommender | Python | Content-based recommender for Rwandan products (AIMS Hackathon) |
-| 2 | streamlit-app | Python | OpenAI chatbot interface with Streamlit + LangChain |
-| 3 | Cryptography | Jupyter Notebook | RSA encryption/decryption from scratch |
-| 4 | FSN-Analysis | Jupyter Notebook | Fast/Slow/Non-moving inventory classification |
-| 5 | Time-Series-Forecast | Jupyter Notebook | XGBoost time series forecasting with feature engineering |
-| 6 | willy-arison | Markdown | GitHub profile config |
-| 7 | Signal-Processing | Jupyter Notebook | Wheezing detection with 1D CNN (~95% accuracy) |
-| 8 | Machine-learning | Jupyter Notebook | Thesis experiments: activation functions comparison |
-| 9 | Incremental-Algorithm | Jupyter Notebook | Betti numbers for simplicial complexes |
-| 10 | Handwritten-Digit-Classification | Jupyter Notebook | MNIST classification via topological features + Random Forest |
-| 11 | Mars-Sol-Problem | Python | Martian calendar day-of-week calculator |
-| 12 | Merge-Sort-Algorithm | Jupyter Notebook | Even-Odd violation counting with merge sort |
-| 13 | python_course_colab_notebooks (fork) | Jupyter Notebook | Colab notebooks from Python course |
