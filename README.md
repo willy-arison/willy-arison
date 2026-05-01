@@ -1,4 +1,4 @@
-# Willy Arison ANDRIAMBOLAMANANA
+### Willy Arison ANDRIAMBOLAMANANA
 
 **MSc in Mathematical Sciences (Distinction) | AIMS Rwanda**
 Aspiring researcher in Deep Learning, Topological Data Analysis, and Optimization.
