@@ -40,7 +40,7 @@ Proposed the **Geletu-Hoffmann Function (GHF)**: a parametric sigmoidal activati
 ### Activation Function Research (Thesis)
 **Technologies:** Python, PyTorch, PyTorch Lightning, Jupyter Notebook
 
-I implemented the experimental pipeline for the **Geletu-Hoffmann Function GHF(x) = τ(x; τ, m₁, m₂)** — a parametric sigmoidal activation with tunable output range [m₁, m₂]. Unlike ReLU (non-smooth at 0) or tanh (fixed [-1, 1]), GHF's adjustable asymptotes enable adaptive gradient scaling per layer. I tested across 6 datasets, 4 architectures (MLP, CNN, LSTM, ResNet), and 5 competing activations; gaining hands-on experience designing novel contributions and systematic benchmarking.
+I implemented the experimental pipeline for the **Geletu-Hoffmann Function GHF(x) = τ(x; τ, m₁, m₂)**; a parametric sigmoidal activation with tunable output range [m₁, m₂]. Unlike ReLU (non-smooth at 0) or tanh (fixed [-1, 1]), GHF's adjustable asymptotes enable adaptive gradient scaling per layer. I tested across 6 datasets, 4 architectures (MLP, CNN, LSTM, ResNet), and 5 competing activations; gaining hands-on experience designing novel contributions and systematic benchmarking.
 
 ### Handwritten Digit Classification Using Topological Features
 **Technologies:** Python, scikit-learn, Giotto-TDA, Matplotlib
