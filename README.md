@@ -62,32 +62,32 @@ I developed a 1D CNN for asthma-relevant wheezing detection from respiratory aud
 
 I built gradient-boosted regression trees minimizing **L = Σᵢ l(yᵢ, ŷᵢ) + Σₖ Ω(fₖ)**, with lag features, seasonal encoding, and multi-ID cross-series learning. This taught me additive ensemble methods and multi-step forecasting — transferable to quantitative finance and climate research.
 
-### Image Classification — Animals-90 (Kaggle)
+### Image Classification - Animals-90 (Kaggle)
 **Technologies:** Python, PyTorch, ResNet-50
 
-I built a ResNet-50 for 90-class classification using **F(x) + x** residual learning, achieving **85% validation accuracy**. I learned how skip-connections mitigate vanishing gradients — essential for designing deep architectures in research.
+I built a ResNet-50 for 90-class classification using **F(x) + x** residual learning, achieving **85% validation accuracy**. I learned how skip-connections mitigate vanishing gradients - essential for designing deep architectures in research.
 
-### Text Classification — IMDB Sentiment Analysis
+### Text Classification - IMDB Sentiment Analysis
 **Technologies:** Python, PyTorch, Transformers
 
 I built a transformer classifier using **multi-head self-attention (softmax(QKᵀ/√d)V)**, achieving **91% test accuracy**. I gained practical experience with attention mechanisms that power modern NLP and multimodal research.
 
-### Made in Rwanda — Content Recommender (AIMS Hackathon)
+### Made in Rwanda - Content Recommender (AIMS Hackathon)
 **Technologies:** Python, SBERT, TF-IDF, scikit-learn
 
 I built a cross-lingual (English/French) product recommender using **cosine similarity in SBERT embedding space (ℝ³⁸⁴)** with a **TF-IDF (tf·log(N/df))** alternative and algorithmic fairness constraints. I learned to navigate trade-offs between dense and sparse representations under CPU-only, low-bandwidth constraints.
 
-### Cryptography — RSA Encryption/Decryption
+### Cryptography - RSA Encryption/Decryption
 **Technologies:** Python, Jupyter Notebook
 
 I implemented RSA from scratch: integer factorization **n = pq**, **e·d ≡ 1 (mod φ(n))**, Extended Euclidean algorithm for Bézout coefficients, and Miller–Rabin probabilistic primality testing. This deepened my understanding of number theory foundations that underpin mathematical ML research.
 
-### Merge Sort — Even-Odd Violation Counting
+### Merge Sort - Even-Odd Violation Counting
 **Technologies:** Python, NumPy, Jupyter Notebook
 
 I solved **(even, odd) inversion counting** via divide-and-conquer, reducing **O(n²) → O(n log n)**. I learned to adapt classical algorithms for novel combinatorial problems.
 
-### Mars Sol Problem — Martian Calendar
+### Mars Sol Problem - Martian Calendar
 **Technologies:** Python
 
 I modeled Martian time using modular arithmetic with non-standard periodicity: 24-month years, irregular month lengths, custom leap year rules.
