@@ -6,7 +6,7 @@ Seeking PhD opportunities starting Fall 2026.
 
 **Location:** Antananarivo, Madagascar  
 **Email:** willy.andriambolamanana@aims.ac.rw  
-**GitHub:** [github.com/willy-arison](https://github.com/willy-arison)
+**CV:** [Download full CV](Willy%20Arison%20-%20CV.pdf)
 
 ---
 
@@ -20,38 +20,18 @@ Stochastic Processes · Machine Learning for Health
 
 ## Education
 
-### MSc in Mathematical Sciences
-**African Institute for Mathematical Sciences (AIMS), Rwanda** | Sep 2024 -- Jun 2025
+**MSc in Mathematical Sciences (Distinction, GPA 4.88/5.0)**
+African Institute for Mathematical Sciences (AIMS), Rwanda | Sep 2024 -- Jun 2025
+Thesis: Implementation and Evaluation of the Geletu-Hoffmann Function as an Activation Function in Deep Learning
 
-- **Thesis:** Implementation and Evaluation of the Geletu-Hoffmann Function as an Activation Function in Deep Learning
-- **Supervisor:** Prof. Abebe Geletu W. Selassie, German Research Chair, AIMS Rwanda
-- **Co-supervisor:** Dr. Roger Fidele Ranomenjanahary, AIMS Rwanda
-- **Honors:** Distinction (GPA: 4.88 / 5.0)
-- **Relevant coursework:** Algorithms and Data Structures, Statistical Machine Learning, Introduction to Deep Learning, Introduction to Probability and Statistics, Data-Driven Optimization, Stochastic Processes
-
-### BSc in Applied Mathematics
-**University of Antananarivo, Madagascar** | 2019 -- 2022
-
-- **Relevant coursework:** Optimization and Numerical Analysis, Probability, Statistics, Differential Equations
+**BSc in Applied Mathematics**
+University of Antananarivo, Madagascar | 2019 -- 2022
 
 ---
 
 ## Thesis
 
-**Title:** *Implementation and Evaluation of the Geletu-Hoffmann Function as an Activation Function in Deep Learning*
-
-Proposed a novel parametric activation function, the **Geletu-Hoffmann Function (GHF)**. It belongs to the sigmoidal (S-shaped) category, is monotonic, smooth, and continuously differentiable with adjustable output range parameters.
-
-**Experiments conducted on 6 benchmark datasets:**
-- MNIST, Fashion MNIST, SVHN, CIFAR-10, CIFAR-100 (image classification)
-- IMDB Reviews (text classification / sentiment analysis)
-
-**Architectures tested:** MLP, CNN, LSTM, ResNet  
-**Compared against:** Sigmoid, Tanh, ReLU, Leaky ReLU, Mish
-
-GHF outperformed all competing functions on text classification (LSTM + IMDB), achieved lower training/validation losses on simple CNN and MLP architectures, and demonstrated fast convergence reaching high accuracy within few epochs.
-
-**Future work:** Test on YOLO and Transformers, automate GHF parameter tuning during training, evaluate with AdamW/RMSprop, and study theoretical behavior.
+Proposed the **Geletu-Hoffmann Function (GHF)**: a parametric sigmoidal activation function **GHF(x) = τ(x; τ, m₁, m₂)** with tunable output range [m₁, m₂]. Unlike ReLU (non-smooth) or tanh (fixed range), GHF's adjustable asymptotes enable adaptive gradient scaling. Evaluated across **6 datasets** (MNIST, Fashion MNIST, SVHN, CIFAR-10/100, IMDB) and **4 architectures** (MLP, CNN, LSTM, ResNet) against 5 baselines. GHF outperformed all competing functions on text classification and demonstrated fast convergence on image benchmarks.
 
 ---
 
@@ -114,43 +94,15 @@ I modeled Martian time using modular arithmetic with non-standard periodicity: 2
 
 ---
 
-## Work Experience
-
-### Marketing Data Analysis Intern
-**RegardBeauty, Cite Planton Antananarivo, Madagascar** | Jul 2025 -- Dec 2025
-
-- Extracted data from multiple sources
-- Cleaned, normalized, aggregated, and merged datasets
-- Defined and computed KPIs
-- Extracted data-driven insights for business decisions
-- Built ML models to estimate missed revenue from out-of-stock events
-- Developed ML models to optimize budget allocation per product over future periods
-- Performed FSN (Fast, Slow, Non-moving) inventory analysis
-- Constructed analytical reports using Google Sheets
-
----
-
 ## Skills
 
-| Category | Skills |
+| Area | Skills |
 |---|---|
-| **Programming** | Python (Matplotlib, scikit-learn, Seaborn, NumPy, SciPy, PyTorch, PyTorch Lightning, Flask, LangChain, Streamlit), R, PostgreSQL, MySQL |
-| **Machine Learning / AI** | Deep Learning (CNN, LSTM, ResNet, Transformers), XGBoost, Random Forest, SBERT, TF-IDF, Topological Data Analysis (Giotto-TDA) |
-| **Technical** | Project management (Notion), Git/GitHub |
-| **Office** | Microsoft Excel, Word, PowerPoint, Google Sheets |
-| **Languages** | Malagasy (native), English (B2), French (B2) |
+| **ML / Deep Learning** | PyTorch, CNN, LSTM, ResNet, Transformers, XGBoost, scikit-learn |
+| **Mathematics** | Optimization, Probability & Statistics, Numerical Analysis, Linear Algebra, Topological Data Analysis |
+| **Programming** | Python (NumPy, SciPy, Matplotlib, Flask), R, PostgreSQL, MySQL |
+| **Tools** | Git, LaTeX, Notion |
 
 ---
 
-## Awards
-
-- **Bank of Kigali Academic Honor Award** — awarded for academic excellence at AIMS Rwanda
-
----
-
-## Conferences & Workshops
-
-- **A-PIC 25** (Probability, Information Theory, and Combinatorics) — University of Rwanda, November 2025
-- **A-PIC 24** (African Summer School for Probability, Information Theory, and Combinatorics) — AIMS Rwanda, August 2024 (Certificate)
-
-
+📄 **Full CV with work experience, awards, conferences, and additional details:** [Willy Arison - CV.pdf](Willy%20Arison%20-%20CV.pdf)
