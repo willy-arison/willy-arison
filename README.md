@@ -6,7 +6,7 @@ Seeking PhD opportunities starting Fall 2026.
 
 **Location:** Antananarivo, Madagascar  
 **Email:** willy.andriambolamanana@aims.ac.rw  
-**CV:** [Download full CV](Willy%20Arison%20-%20CV.pdf)
+**CV:** [Download full CV](Willy_Arison_Andriambolamanana_CV.pdf)
 
 ---
 
