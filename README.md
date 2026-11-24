@@ -1,108 +1,37 @@
-## Willy Arison ANDRIAMBOLAMANANA
+# Willy Arison Andriambolamanana
 
-**MSc in Mathematical Sciences (Distinction) | AIMS Rwanda**
-Aspiring researcher in Deep Learning, Topological Data Analysis, and Optimization.
-Seeking PhD opportunities starting Fall 2026.
+**Research Assistant, AIMS Rwanda** · MSc in Mathematical Sciences (Distinction)
 
-**Location:** Antananarivo, Madagascar  
-**Email:** willy.andriambolamanana@aims.ac.rw  
-**CV:** [Download full CV](Willy_Arison_Andriambolamanana_CV.pdf)
+I work on online and randomized algorithms, competitive analysis, graph exploration, and computational topology. I am applying for PhD positions in theoretical computer science and algorithms.
+
+Kigali, Rwanda · [willy.andriambolamanana@aims.ac.rw](mailto:willy.andriambolamanana@aims.ac.rw) · [CV (PDF)](Willy_Arison_Andriambolamanana_CV.pdf)
 
 ---
 
-## Research Interests
+## Research
 
-Deep Learning · Activation Functions · Topological Data Analysis ·
-Signal Processing · Time Series Forecasting · Mathematical Optimization ·
-Stochastic Processes · Machine Learning for Health
+### Online Graph Exploration on Weighted Cycles *(manuscript in preparation)*
+*With Dr. Jan Hązła, AIMS Rwanda (Sep 2026 – Present)*
 
----
+We analyze **RandHeavyTest₀.₅**, a randomized algorithm for online exploration of weighted cycles introduced by Baligács, Hązła, and Volk ([arXiv:2607.11203](https://arxiv.org/abs/2607.11203)). Using a stopping time at the first discovery of either of the two heaviest edges together with a supermartingale potential function, we cover both heavy and light cycles and prove an upper bound of **1 + λ₀ ≈ 1.3073** on the competitive ratio (down from **1 + r ≈ 1.3143**, against the **1.2922** lower bound for RandHeavyTest₀.₅), with a strictly smaller bound on light cycles.
 
-## Education
+### Geletu-Hoffmann Activation Function in Deep Learning *(MSc Thesis)*
+*AIMS Rwanda · Advisor: Prof. Abebe Geletu W. Selassie (Apr 2025 – Jun 2025)* · [Code](https://github.com/willy-arison/Machine-learning)
 
-**MSc in Mathematical Sciences (Distinction, GPA 4.88/5.0)**
-African Institute for Mathematical Sciences (AIMS), Rwanda | Sep 2024 -- Jun 2025
-Thesis: Implementation and Evaluation of the Geletu-Hoffmann Function as an Activation Function in Deep Learning
-
-**BSc in Applied Mathematics**
-University of Antananarivo, Madagascar | 2019 -- 2022
+Proved Lipschitz continuity and differentiability of the Geletu-Hoffmann function (GHF), a parametric sigmoidal activation with tunable asymptotes `[m₁, m₂]`, and evaluated it in PyTorch across 5 models (MLP, two CNNs, LSTM, ResNet-20) and 6 datasets against 5 baselines including ReLU and Mish. GHF outperformed all 5 baselines on IMDB text classification and converged faster on the image benchmarks.
 
 ---
 
-## Thesis
+## Selected Repositories
 
-Proposed the **Geletu-Hoffmann Function (GHF)**: a parametric sigmoidal activation function **GHF(x) = τ(x; τ, m₁, m₂)** with tunable output range [m₁, m₂]. Unlike ReLU (non-smooth) or tanh (fixed range), GHF's adjustable asymptotes enable adaptive gradient scaling. Evaluated across **6 datasets** (MNIST, Fashion MNIST, SVHN, CIFAR-10/100, IMDB) and **4 architectures** (MLP, CNN, LSTM, ResNet) against 5 baselines. GHF outperformed all competing functions on text classification and demonstrated fast convergence on image benchmarks.
+### Algorithms, Topology & Cryptography
+- **[Incremental Algorithm and Gaussian Reduction for Simplicial Complexes](https://github.com/willy-arison/Incremental-Algorithm)** (`Python`, `NumPy`) — Computes Betti numbers `βₖ = rank(Hₖ)` via Gaussian elimination over boundary matrices `∂ₖ : Cₖ → Cₖ₋₁`.
+- **[Handwritten Digit Classification with Persistent Homology](https://github.com/willy-arison/Handwritten-Digit-Classification-Using-Topological-Features-and-RandomForestClassifier)** (`Python`, `Giotto-TDA`, `scikit-learn`) — Extracts `H₀` and `H₁` persistence diagrams across filtration scales and trains a Random Forest classifier on topological features.
+- **RSA Encryption and Decryption from Scratch** (`Python`) — Key generation, encryption, and decryption using the Extended Euclidean algorithm and Miller–Rabin primality testing.
+- **Even-Odd Inversion Counting** (`Python`, `NumPy`) — Divide-and-conquer adaptation of Merge Sort to count `(even, odd)` inversions in `O(n log n)` time.
 
----
-
-## Projects
-
-### Activation Function Research (Thesis)
-**Technologies:** Python, PyTorch, PyTorch Lightning, Jupyter Notebook
-
-I implemented the experimental pipeline for the **Geletu-Hoffmann Function GHF(x) = τ(x; τ, m₁, m₂)**; a parametric sigmoidal activation with tunable output range [m₁, m₂]. Unlike ReLU (non-smooth at 0) or tanh (fixed [-1, 1]), GHF's adjustable asymptotes enable adaptive gradient scaling per layer. I tested across 6 datasets, 4 architectures (MLP, CNN, LSTM, ResNet), and 5 competing activations; gaining hands-on experience designing novel contributions and systematic benchmarking.
-
-### Handwritten Digit Classification Using Topological Features
-**Technologies:** Python, scikit-learn, Giotto-TDA, Matplotlib
-
-I classified MNIST digits using **persistent homology** instead of raw pixels. I transformed images into persistence diagrams encoding **(birth, death)** of H₀, H₁ homology classes across filtration scales, then trained a Random Forest on the topological feature space. I learned how topological features complement pixel-based methods; bridging pure math and applied ML.
-
-### Incremental Algorithm and Gauss Reduction for Simplicial Complexes
-**Technologies:** Python, Jupyter Notebook, Topological Data Analysis
-
-I implemented **Betti number βₖ = rank(Hₖ)** computation using the boundary operator **∂ₖ: Cₖ → Cₖ₋₁** with **∂∘∂ = 0** for persistent homology. I gained practical experience in computational algebraic topology, directly supporting my TDA research interests.
-
-### Signal Classification - Respiratory Sound Dataset
-**Technologies:** Python, Librosa, PyTorch, 1D CNN, MFCC
-
-I developed a 1D CNN for asthma-relevant wheezing detection from respiratory audio. I extracted **MFCC features via STFT → Mel-scale filterbank → DCT**, then applied 1D convolutions for sequential feature extraction. Achieved **~95% validation accuracy**. I learned how spectral signal processing and convolutional feature extraction combine for medical ML research.
-
-### Time Series Forecasting with XGBoost
-**Technologies:** Python, XGBoost, Pandas, Jupyter Notebook
-
-I built gradient-boosted regression trees minimizing **L = Σᵢ l(yᵢ, ŷᵢ) + Σₖ Ω(fₖ)**, with lag features, seasonal encoding, and multi-ID cross-series learning. This taught me additive ensemble methods and multi-step forecasting; transferable to quantitative finance and climate research.
-
-### Image Classification - Animals-90 (Kaggle)
-**Technologies:** Python, PyTorch, ResNet-50
-
-I built a ResNet-50 for 90-class classification using **F(x) + x** residual learning, achieving **85% validation accuracy**. I learned how skip-connections mitigate vanishing gradients - essential for designing deep architectures in research.
-
-### Text Classification - IMDB Sentiment Analysis
-**Technologies:** Python, PyTorch, Transformers
-
-I built a transformer classifier using **multi-head self-attention (softmax(QKᵀ/√d)V)**, achieving **91% test accuracy**. I gained practical experience with attention mechanisms that power modern NLP and multimodal research.
-
-### Made in Rwanda - Content Recommender (AIMS Hackathon)
-**Technologies:** Python, SBERT, TF-IDF, scikit-learn
-
-I built a cross-lingual (English/French) product recommender using **cosine similarity in SBERT embedding space (ℝ³⁸⁴)** with a **TF-IDF (tf·log(N/df))** alternative and algorithmic fairness constraints. I learned to navigate trade-offs between dense and sparse representations under CPU-only, low-bandwidth constraints.
-
-### Cryptography - RSA Encryption/Decryption
-**Technologies:** Python, Jupyter Notebook
-
-I implemented RSA from scratch: integer factorization **n = pq**, **e·d ≡ 1 (mod φ(n))**, Extended Euclidean algorithm for Bézout coefficients, and Miller–Rabin probabilistic primality testing. This deepened my understanding of number theory foundations that underpin mathematical ML research.
-
-### Merge Sort - Even-Odd Violation Counting
-**Technologies:** Python, NumPy, Jupyter Notebook
-
-I solved **(even, odd) inversion counting** via divide-and-conquer, reducing **O(n²) → O(n log n)**. I learned to adapt classical algorithms for novel combinatorial problems.
-
-### Mars Sol Problem - Martian Calendar
-**Technologies:** Python
-
-I modeled Martian time using modular arithmetic with non-standard periodicity: 24-month years, irregular month lengths, custom leap year rules.
-
----
-
-## Skills
-
-| Area | Skills |
-|---|---|
-| **ML / Deep Learning** | PyTorch, CNN, LSTM, ResNet, Transformers, XGBoost, scikit-learn |
-| **Mathematics** | Optimization, Probability & Statistics, Numerical Analysis, Linear Algebra, Topological Data Analysis |
-| **Programming** | Python (NumPy, SciPy, Matplotlib, Flask), R, PostgreSQL, MySQL |
-| **Tools** | Git, LaTeX, Notion |
-
----
-
-📄 **Full CV with work experience, awards, conferences, and additional details:** [Willy Arison - CV.pdf](Willy%20Arison%20-%20CV.pdf)
+### Machine Learning & Applied Projects
+- **Respiratory Sound Classification** (`Python`, `PyTorch`, `Librosa`) — 1D CNN on MFCC features for wheezing detection (~95% validation accuracy).
+- **Made in Rwanda: Cross-Lingual Recommender** (`Python`, `SBERT`, `TF-IDF`, `scikit-learn`) — English/French product recommender from the AIMS Hackathon with fairness constraints for CPU-only deployment.
+- **Time Series Forecasting with XGBoost** (`Python`, `XGBoost`, `Pandas`) — Multi-series forecasting with lag features and seasonal encodings.
+- **IMDB Sentiment & Animals-90 Classification** (`Python`, `PyTorch`) — Transformer classifier on IMDB (91% test accuracy) and ResNet-50 on Animals-90 (85% validation accuracy).
